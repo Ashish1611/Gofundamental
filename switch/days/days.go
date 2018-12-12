@@ -1,35 +1,31 @@
-package main
+package days
 
-import (
-	"fmt"
-)
 
-func main() {
 
-	days := 5
+func Days(ch int) string{
 
-	switch days {
+	switch ch {
 
 	case 1:
-		fmt.Println("Sun")
+		return "Sunday"
 
 	case 2:
-		fmt.Println("Mon")
+		return "Monday"
 
 	case 3:
-		fmt.Printf("Tue")
-
+        return "Tue"
 	case 4:
-		fmt.Println("Wed")
+		return "Wed"
 
 	case 5:
-		fmt.Print("Thu")
-
+        return "Thu"
 	case 6:
-		fmt.Println("Fri")
+		return "Fri"
 
 	case 7:
-		fmt.Println("Sat")
+		return "Sat"
 
 	}
+
+	return "Not a day of week"
 }
