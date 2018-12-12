@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	for i := 1; i <= 10; i++ {
+	for i := 1; i <= 5; i++ {
 		 fmt.Printf(" %d", i)
 
-		for j := 10; j <= 20; j++ {
+		for j := 5; j <= 10; j++ {
 			fmt.Printf(" %d", j)
 		}
 	}

@@ -1,6 +1,7 @@
-package function
+package TestFun
 
-func CalculateBill(price int, no int) int, error {
-	var totalPrice = price * no
-	return totalPrice, 
+func CalBill(price, qty int) int {
+
+	return price * qty
 }
+

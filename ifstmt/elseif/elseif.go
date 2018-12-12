@@ -1,20 +1,17 @@
-package main
+package elseif
 
-import (
-	"fmt"
-)
 
-func main() {
+func Elseifex(no int) string{
 
-	num := 9
+	//num := 9
 
-	if num <= 50 {
+	if no <= 50 {
 
-		fmt.Print("No is Less than or equal to 50 ")
-	} else if num >= 51 && num <= 100 {
-		fmt.Print("No is between 51 and 100")
+		return "No is Less than or equal to 50 "
+	} else if no >= 51 && no <= 100 {
+		return "No is between 51 and 100"
 	} else {
-		fmt.Print("No is greater than 100")
+		return "No is greater than 100"
 	}
 
 }
